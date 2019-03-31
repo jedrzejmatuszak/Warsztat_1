@@ -1,0 +1,10 @@
+.idea/*
+*.iml
+*.pyc
+*.xml
+art.py
+flask_learning.py
+templates/hello.html
+templates/request.html
+templates/minmax.html
+templates/table.html

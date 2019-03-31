@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyFlaskApp</title>
+</head>
+<body>
+    <h3>Zgaduję: {{ guess }}</h3>
+    <form action="/" method="POST">
+        <button type="submit" name="choice" value="za_malo">ZA MAŁO</button>
+        <button type="submit" name="choice" value="za_duzo">ZA DUŻO</button>
+        <button type="submit" name="choice" value="trafiles">TRAFIŁEŚ</button>
+        <input type="hidden" name="min_value" value="{{ min_value }}">
+        <input type="hidden" name="max_value" value="{{ max_value }}">
+    </form>
+</body>
+</html>
